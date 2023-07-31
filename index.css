@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+.flex {
+    display: flex;
+}
+
+.left img {
+    width: 115px;
+    height: 60px;
+}
+
+.container {
+    padding: 0 8vh;
+    margin: auto;
+}
+
+nav {
+    padding-top: 14px;
+    font-size: 13px;
+}
+
+nav ul li {
+    list-style: none;
+    padding: 0 12px;
+}
+
+.item-center {
+    align-items: center;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.space-between {
+    justify-content: space-between;
+}
+
+.bolder {
+    font-weight: bolder;
+}
+
+
+.section1 {
+    background-color: white;
+
+}
+
+header {
+    position: sticky;
+    top: 0;
+    background-color: white;
+    height: 75px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 1px 5px;
+}
+
+.search {
+    width: 34vw;
+    padding: 7px 17px;
+    border: 0.5px solid grey;
+    background: rgb(246, 246, 248);
+    border-radius: 5px;
+}
+
+.homeimg {
+    width: 90vw;
+    margin: 5px;
+}
+
+.itemimg {
+    width: 12vw;
+    margin: 7px 7px;
+}
+
+.mx-2 {
+    margin-left: 12px;
+    margin-right: 12px;
+}
+
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
+footer {
+    padding: 23px;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.rightBox {
+    display: flex;
+    margin: 12px;
+}
+
+.toll {
+    margin-top: 100px;
+}
+
+@media (max-width: 600px) {
+    .search {
+        width: 70vw;
+    }
+}
+
+@media (max-width: 1355px) {
+    header {
+        height: 135px;
+    }
+
+    nav {
+        flex-direction: column;
+        align-items: center;
+        padding-top: 0;
+    }
+
+    .right {
+        flex-direction: column;
+
+    }
+
+    .mx-2 {
+        font-size: 10px;
+    }
+
+    .left img {
+        width: 90px;
+        height: 50px;
+    }
+
+    .rightBox {
+        display: flex;
+        margin: 12px;
+    }
+
+    nav ul li {
+        list-style: none;
+        padding: 0 4px;
+        font-size: 10px;
+    }
+
+    .container {
+        padding: 0 4vw;
+        margin: auto;
+    }
+
+    footer {
+        padding: 23px;
+        font-size: 10px;
+        text-align: center;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    }
+}
